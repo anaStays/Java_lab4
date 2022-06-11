@@ -1,16 +1,16 @@
 import java.util.Objects;
 
 /**
- * Класс хранящий данные о подразделении
- * ---Индетификатор, имя---
+ * Division data
+ * ---identificator, name---
  */
 public class Division {
     public Long id;
     public String name;
 
     /**
-     * Конструктор по имени
-     * @param name Имя подразделения
+     * Constructor with name
+     * @param name Division name
      */
     public Division(Long id, String name)
     {
